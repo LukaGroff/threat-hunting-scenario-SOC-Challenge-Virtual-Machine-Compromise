@@ -111,7 +111,7 @@ DeviceProcessEvents
 | sort by Timestamp asc
 ```
 
-<img width="600" src="https://github.com/user-attachments/assets/790effb4-9e7e-4bb2-801e-24387c77dbf6"/>
+<img width="800" src="https://github.com/user-attachments/assets/790effb4-9e7e-4bb2-801e-24387c77dbf6"/>
 
 
 🧠 **Thought process:** This one was a bit of a head-scratcher but I eventually managed to find the right binary after applying enough filters.
@@ -161,7 +161,7 @@ DeviceRegistryEvents
 | where RegistryKey contains "TaskCache"
 | project Timestamp, RegistryKey, InitiatingProcessCommandLine, InitiatingProcessFolderPath
 ```
-<img width="600" src="https://github.com/user-attachments/assets/3f61a993-550c-4244-9f28-5c085587dbd0"/>
+<img width="800" src="https://github.com/user-attachments/assets/3f61a993-550c-4244-9f28-5c085587dbd0"/>
 
 🧠 **Thought process:** It took me a while to find the right task because it blends in so well with other tasks, but giving enough kql filters really narrowed down my choices and I finally found the answer.
 
