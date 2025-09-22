@@ -290,7 +290,7 @@ Search DeviceNetworkEvents for outbound traffic occurring after the archive was 
 
 ---
 
-Recommended next steps:
+**Recommended next steps:**
 
 - Isolate/reimage the host; remove the scheduled task and Defender exclusions.
 
